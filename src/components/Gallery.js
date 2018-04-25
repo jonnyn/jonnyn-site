@@ -84,6 +84,8 @@ class Gallery extends Component {
             <div>
                 {this.renderGallery()}
                 <Lightbox
+                    imageTitle={this.state.imageTitle}
+                    imageCaption={this.state.imageCaption}
                     currentImage={this.state.currentImage}
                     images={this.props.images}
                     isOpen={this.state.lightboxIsOpen}
