@@ -1,0 +1,2578 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b08fa1c7765b604a9f9b26f777fc58e0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d213facfb79383b6547d59d7939f0fdb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f526b11dc06f10ee869bba8304e111eb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f0b4dade0faadf7548dd9eb5d13908b3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8ef7cd2ed66a501b43d6047383d331b6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "db07f3fecf6fafbbe949f9ddb91790c7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.34",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.34",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "12a575d111473209298f2724cd1a1dff",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.40",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.62",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 630,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.32",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-remark-copy-linked-files"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.40",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d17b1b5af7a6200495734cebbaa74548",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.62",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 630,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.62",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.43"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2c27dd36924857b61fbc9962a8b182bf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.32",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.32",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "260168e96342d1434b9f62ec08da1a7b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.23",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.23",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8fc091d1d7c43804629d48ef67276ce0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.43",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.43",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9ef1c0cf3b8718600bfa7c79ce309d85",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fac4e41733ff4be04bc8c5158676d69e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.26",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f0689511b49d8ce8fa24dbf824ff7fc6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/jonnyn/JonGit/JonnynSite",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "19b79a1b0753be32925c6db378ca080b",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonnyn/JonGit/JonnynSite",
+      "packageJson": {
+        "name": "Jonnyn Site",
+        "description": "Jonny Nguyen - Personal Website",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Jonny Nguyen",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.235"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.39"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.42"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.24"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.23"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.41"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.30"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.56"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.27"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.37"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.22"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "react-images",
+            "version": "^0.5.14"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1013ba961f7b3b291d36da8e8642b9c4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Starter - Strata by HTML5 UP",
+        "author": "Hunter Chang",
+        "description": "A Gatsby.js Starter based on Strata by HTML5 UP"
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-04-25T16:27:41.431Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b9bb0f004e0fc12249ce5f02b553a41e",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/posts absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7c30d5fb130850f01d54da2647f63b6e",
+        "type": "Directory",
+        "description": "Directory \"src/posts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-04-25T09:44:45.264Z",
+      "accessTime": "2018-04-25T16:27:43.133Z",
+      "changeTime": "2018-04-25T09:44:45.264Z",
+      "birthTime": "2018-04-25T09:44:45.260Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src",
+      "base": "posts",
+      "ext": "",
+      "name": "posts",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034203,
+      "blocks": 0,
+      "atimeMs": 1524673663133.3418,
+      "mtimeMs": 1524649485264.0654,
+      "ctimeMs": 1524649485264.0654,
+      "birthtimeMs": 1524649485260.3386,
+      "atime": "2018-04-25T16:27:43.133Z",
+      "mtime": "2018-04-25T09:44:45.264Z",
+      "ctime": "2018-04-25T09:44:45.264Z",
+      "birthtime": "2018-04-25T09:44:45.260Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e5a638e40ff6c5f7e25aea9bba7fb4d1",
+        "type": "Directory",
+        "description": "Directory \"src/posts/hello-world\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world",
+      "relativePath": "hello-world",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-04-25T09:44:45.261Z",
+      "accessTime": "2018-04-25T16:27:43.135Z",
+      "changeTime": "2018-04-25T09:44:45.261Z",
+      "birthTime": "2018-04-25T09:44:45.260Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/posts",
+      "base": "hello-world",
+      "ext": "",
+      "name": "hello-world",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034204,
+      "blocks": 0,
+      "atimeMs": 1524673663135.331,
+      "mtimeMs": 1524649485260.6765,
+      "ctimeMs": 1524649485260.6765,
+      "birthtimeMs": 1524649485260.3997,
+      "atime": "2018-04-25T16:27:43.135Z",
+      "mtime": "2018-04-25T09:44:45.261Z",
+      "ctime": "2018-04-25T09:44:45.261Z",
+      "birthtime": "2018-04-25T09:44:45.260Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ce5810bba8b72cbbd62d5f6db0e38017",
+        "type": "Directory",
+        "description": "Directory \"src/posts/hi-folks\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks",
+      "relativePath": "hi-folks",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-04-25T09:44:45.264Z",
+      "accessTime": "2018-04-25T16:27:43.135Z",
+      "changeTime": "2018-04-25T09:44:45.264Z",
+      "birthTime": "2018-04-25T09:44:45.264Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/posts",
+      "base": "hi-folks",
+      "ext": "",
+      "name": "hi-folks",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034207,
+      "blocks": 0,
+      "atimeMs": 1524673663135.4026,
+      "mtimeMs": 1524649485263.7292,
+      "ctimeMs": 1524649485263.7292,
+      "birthtimeMs": 1524649485263.6348,
+      "atime": "2018-04-25T16:27:43.135Z",
+      "mtime": "2018-04-25T09:44:45.264Z",
+      "ctime": "2018-04-25T09:44:45.264Z",
+      "birthtime": "2018-04-25T09:44:45.264Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5db01032c88ec8dc3c40e5567f775fd8",
+        "type": "Directory",
+        "description": "Directory \"src/posts/my-second-post\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post",
+      "relativePath": "my-second-post",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-04-25T09:44:45.264Z",
+      "accessTime": "2018-04-25T16:27:43.135Z",
+      "changeTime": "2018-04-25T09:44:45.264Z",
+      "birthTime": "2018-04-25T09:44:45.264Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/posts",
+      "base": "my-second-post",
+      "ext": "",
+      "name": "my-second-post",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034209,
+      "blocks": 0,
+      "atimeMs": 1524673663135.3909,
+      "mtimeMs": 1524649485264.1782,
+      "ctimeMs": 1524649485264.1782,
+      "birthtimeMs": 1524649485264.0557,
+      "atime": "2018-04-25T16:27:43.135Z",
+      "mtime": "2018-04-25T09:44:45.264Z",
+      "ctime": "2018-04-25T09:44:45.264Z",
+      "birthtime": "2018-04-25T09:44:45.264Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "72293c460c59ab906d3e224a7a2c9ebb",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/hello-world/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md",
+      "relativePath": "hello-world/index.md",
+      "extension": "md",
+      "size": 866,
+      "prettySize": "866 B",
+      "modifiedTime": "2018-04-25T09:44:45.261Z",
+      "accessTime": "2018-04-25T09:57:17.021Z",
+      "changeTime": "2018-04-25T09:44:45.261Z",
+      "birthTime": "2018-04-25T09:44:45.260Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hello-world",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034205,
+      "blocks": 8,
+      "atimeMs": 1524650237021.4321,
+      "mtimeMs": 1524649485260.571,
+      "ctimeMs": 1524649485260.571,
+      "birthtimeMs": 1524649485260.478,
+      "atime": "2018-04-25T09:57:17.021Z",
+      "mtime": "2018-04-25T09:44:45.261Z",
+      "ctime": "2018-04-25T09:44:45.261Z",
+      "birthtime": "2018-04-25T09:44:45.260Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks/index.md absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks/index.md absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "02e333427bb8c7b38214ad21a4a27e26",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/hi-folks/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks/index.md",
+      "relativePath": "hi-folks/index.md",
+      "extension": "md",
+      "size": 5495,
+      "prettySize": "5.5 kB",
+      "modifiedTime": "2018-04-25T09:44:45.264Z",
+      "accessTime": "2018-04-25T09:54:17.313Z",
+      "changeTime": "2018-04-25T09:44:45.264Z",
+      "birthTime": "2018-04-25T09:44:45.264Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hi-folks",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034208,
+      "blocks": 16,
+      "atimeMs": 1524650057313.0615,
+      "mtimeMs": 1524649485263.8765,
+      "ctimeMs": 1524649485263.8765,
+      "birthtimeMs": 1524649485263.721,
+      "atime": "2018-04-25T09:54:17.313Z",
+      "mtime": "2018-04-25T09:44:45.264Z",
+      "ctime": "2018-04-25T09:44:45.264Z",
+      "birthtime": "2018-04-25T09:44:45.264Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fef193964fc7c139bea1d17dad270f09",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/my-second-post/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md",
+      "relativePath": "my-second-post/index.md",
+      "extension": "md",
+      "size": 403,
+      "prettySize": "403 B",
+      "modifiedTime": "2018-04-25T09:44:45.264Z",
+      "accessTime": "2018-04-25T09:54:17.313Z",
+      "changeTime": "2018-04-25T09:44:45.264Z",
+      "birthTime": "2018-04-25T09:44:45.264Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "my-second-post",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034210,
+      "blocks": 8,
+      "atimeMs": 1524650057313.1506,
+      "mtimeMs": 1524649485264.2651,
+      "ctimeMs": 1524649485264.2651,
+      "birthtimeMs": 1524649485264.17,
+      "atime": "2018-04-25T09:54:17.313Z",
+      "mtime": "2018-04-25T09:44:45.264Z",
+      "ctime": "2018-04-25T09:44:45.264Z",
+      "birthtime": "2018-04-25T09:44:45.264Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Hello World\ndate: \"2015-05-01T22:12:03.284Z\"\npath: \"/hello-world/\"\n---\n\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n>A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste. The eggs may also be sold with the salted paste removed, wrapped in plastic, and vacuum packed. From the salt curing process, the salted duck eggs have a briny aroma, a gelatin-like egg white and a firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "feeb8319e59cd14085ecaaa16df2ab1c",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "date": "2015-05-01T22:12:03.284Z",
+        "path": "/hello-world/",
+        "_PARENT": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file",
+        "parent": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: New Beginnings\ndate: \"2015-05-28T22:40:32.169Z\"\npath: \"/hi-folks/\"\n---\n\nFar far away, behind the word mountains, far from the countries Vokalia\nand Consonantia, there live the blind texts. Separated they live in\nBookmarksgrove right at the coast of the Semantics, a large language\nocean. A small river named Duden flows by their place and supplies it\nwith the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of\nbad Commas, wild Question Marks and devious Semikoli, but the Little\nBlind Text didn’t listen. She packed her seven versalia, put her initial\ninto the belt and made herself on the way.\n\n*   This however showed weasel\n*   Well uncritical so misled\n    *   this is very interesting\n*   Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she\nhad a last view back on the skyline of her\nhometown _Bookmarksgrove_, the headline of [Alphabet\nVillage](http://google.com) and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith [Longe and Parole](http://google.com) and dragged her into\ntheir agency, where they abused her for their projects again and\nagain. And if she hasn’t been rewritten, then they are still using\nher.\n\n> Far far away, behind the word mountains, far from the countries\n> Vokalia and Consonantia, there live the blind texts. Separated\n> they live in Bookmarksgrove right at the coast of the Semantics, a\n> large language ocean. \n\nIt is a paradisematic country, in which roasted parts of sentences\nfly into your mouth. Even the all-powerful Pointing has no control\nabout the blind texts it is an almost unorthographic life One day\nhowever a small line of blind text by the name of Lorem Ipsum\ndecided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands\nof bad Commas, wild Question Marks and devious Semikoli, but the\nLittle Blind Text didn’t listen. She packed her seven versalia, put\nher initial into the belt and made herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the\nheadline of Alphabet Village and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n> The copy warned the Little Blind Text, that where it came from it\n> would have been rewritten a thousand times and everything that was\n> left from its origin would be the word \"and\" and the Little Blind\n> Text should turn around and return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they\nabused her for their projects again and again. And if she hasn’t\nbeen rewritten, then they are still using her. Far far away, behind\nthe word mountains, far from the countries Vokalia and Consonantia,\nthere live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the\nSemantics, a large language ocean. A small river named Duden flows\nby their place and supplies it with the necessary regelialia. It is\na paradisematic country, in which roasted parts of sentences fly\ninto your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts\nit is an almost unorthographic life One day however a small line of\nblind text by the name of Lorem Ipsum decided to leave for the far\nWorld of Grammar. The Big Oxmox advised her not to do so, because\nthere were thousands of bad Commas, wild Question Marks and devious\nSemikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and\nmade herself on the way. When she reached the first hills of the\nItalic Mountains, she had a last view back on the skyline of her\nhometown Bookmarksgrove, the headline of Alphabet Village and the\nsubline of her own road, the Line Lane. Pityful a rethoric question\nran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it\nwould have been rewritten a thousand times and everything that was\nleft from its origin would be the word \"and\" and the Little Blind\nText should turn around and return to its own, safe country. But\nnothing the copy said could convince her and so it didn’t take long\nuntil a few insidious Copy Writers ambushed her, made her drunk with\nLonge and Parole and dragged her into their agency, where they\nabused her for their projects again and again.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "c2f6e92096ae1ec86d0bb01a09cb2d6c",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "New Beginnings",
+        "date": "2015-05-28T22:40:32.169Z",
+        "path": "/hi-folks/",
+        "_PARENT": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks/index.md absPath of file",
+        "parent": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks/index.md"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: My Second Post!\ndate: \"2015-05-06T23:46:37.121Z\"\npath: \"/my-second-post/\"\n---\n\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from chicken eggs, though the taste and texture will be somewhat different, and the egg yolk will be less rich.\"? ([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "13939b75902aff31e2bb1580e0f709eb",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "My Second Post!",
+        "date": "2015-05-06T23:46:37.121Z",
+        "path": "/my-second-post/",
+        "_PARENT": "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md absPath of file",
+        "parent": "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/salty_egg.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/salty_egg.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/posts/hello-world/salty_egg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/salty_egg.jpg",
+      "relativePath": "hello-world/salty_egg.jpg",
+      "extension": "jpg",
+      "size": 684322,
+      "prettySize": "684 kB",
+      "modifiedTime": "2018-04-25T09:44:45.263Z",
+      "accessTime": "2018-04-25T09:54:17.313Z",
+      "changeTime": "2018-04-25T09:44:45.263Z",
+      "birthTime": "2018-04-25T09:44:45.261Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world",
+      "base": "salty_egg.jpg",
+      "ext": ".jpg",
+      "name": "salty_egg",
+      "relativeDirectory": "hello-world",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034206,
+      "blocks": 1344,
+      "atimeMs": 1524650057312.971,
+      "mtimeMs": 1524649485263.3923,
+      "ctimeMs": 1524649485263.3923,
+      "birthtimeMs": 1524649485260.671,
+      "atime": "2018-04-25T09:54:17.313Z",
+      "mtime": "2018-04-25T09:44:45.263Z",
+      "ctime": "2018-04-25T09:44:45.263Z",
+      "birthtime": "2018-04-25T09:44:45.261Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/salty_egg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f5f9898ea00b7bd1837cb9f9382757c7",
+        "type": "Directory",
+        "description": "Directory \"src/assets/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-04-25T09:44:45.255Z",
+      "accessTime": "2018-04-25T16:27:43.148Z",
+      "changeTime": "2018-04-25T09:44:45.255Z",
+      "birthTime": "2018-04-25T09:44:45.250Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034167,
+      "blocks": 0,
+      "atimeMs": 1524673663147.9878,
+      "mtimeMs": 1524649485254.9895,
+      "ctimeMs": 1524649485254.9895,
+      "birthtimeMs": 1524649485250.0823,
+      "atime": "2018-04-25T16:27:43.148Z",
+      "mtime": "2018-04-25T09:44:45.255Z",
+      "ctime": "2018-04-25T09:44:45.255Z",
+      "birthtime": "2018-04-25T09:44:45.250Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a50e76976bf07b21dd7b1fd7661c1883",
+        "type": "Directory",
+        "description": "Directory \"src/assets/images/fulls\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls",
+      "relativePath": "fulls",
+      "extension": "",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2018-04-25T09:44:45.254Z",
+      "accessTime": "2018-04-25T16:27:43.149Z",
+      "changeTime": "2018-04-25T09:44:45.254Z",
+      "birthTime": "2018-04-25T09:44:45.252Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images",
+      "base": "fulls",
+      "ext": "",
+      "name": "fulls",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 8,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034171,
+      "blocks": 0,
+      "atimeMs": 1524673663148.818,
+      "mtimeMs": 1524649485254.3054,
+      "ctimeMs": 1524649485254.3054,
+      "birthtimeMs": 1524649485251.63,
+      "atime": "2018-04-25T16:27:43.149Z",
+      "mtime": "2018-04-25T09:44:45.254Z",
+      "ctime": "2018-04-25T09:44:45.254Z",
+      "birthtime": "2018-04-25T09:44:45.252Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1f3717a237f5aaaaf588290f662bd237",
+        "type": "Directory",
+        "description": "Directory \"src/assets/images/thumbs\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs",
+      "relativePath": "thumbs",
+      "extension": "",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2018-04-25T09:44:45.257Z",
+      "accessTime": "2018-04-25T16:27:43.149Z",
+      "changeTime": "2018-04-25T09:44:45.257Z",
+      "birthTime": "2018-04-25T09:44:45.255Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images",
+      "base": "thumbs",
+      "ext": "",
+      "name": "thumbs",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 8,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034178,
+      "blocks": 0,
+      "atimeMs": 1524673663148.8381,
+      "mtimeMs": 1524649485256.7295,
+      "ctimeMs": 1524649485256.7295,
+      "birthtimeMs": 1524649485254.9775,
+      "atime": "2018-04-25T16:27:43.149Z",
+      "mtime": "2018-04-25T09:44:45.257Z",
+      "ctime": "2018-04-25T09:44:45.257Z",
+      "birthtime": "2018-04-25T09:44:45.255Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/avatar.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/avatar.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/avatar.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dfe5758e430275b5d474c4161aeacfaa",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/avatar.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/avatar.jpg",
+      "relativePath": "avatar.jpg",
+      "extension": "jpg",
+      "size": 3843,
+      "prettySize": "3.84 kB",
+      "modifiedTime": "2018-04-25T09:44:45.250Z",
+      "accessTime": "2018-04-25T09:58:13.927Z",
+      "changeTime": "2018-04-25T09:44:45.250Z",
+      "birthTime": "2018-04-25T09:44:45.250Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images",
+      "base": "avatar.jpg",
+      "ext": ".jpg",
+      "name": "avatar",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034169,
+      "blocks": 8,
+      "atimeMs": 1524650293927.041,
+      "mtimeMs": 1524649485250.2642,
+      "ctimeMs": 1524649485250.2642,
+      "birthtimeMs": 1524649485250.188,
+      "atime": "2018-04-25T09:58:13.927Z",
+      "mtime": "2018-04-25T09:44:45.250Z",
+      "ctime": "2018-04-25T09:44:45.250Z",
+      "birthtime": "2018-04-25T09:44:45.250Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/01.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/01.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/01.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6c866ee91adf8b061eaa83d7d286f64a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/thumbs/01.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/01.jpg",
+      "relativePath": "thumbs/01.jpg",
+      "extension": "jpg",
+      "size": 26850,
+      "prettySize": "26.9 kB",
+      "modifiedTime": "2018-04-25T09:44:45.255Z",
+      "accessTime": "2018-04-25T09:56:14.420Z",
+      "changeTime": "2018-04-25T09:44:45.255Z",
+      "birthTime": "2018-04-25T09:44:45.255Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs",
+      "base": "01.jpg",
+      "ext": ".jpg",
+      "name": "01",
+      "relativeDirectory": "thumbs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034179,
+      "blocks": 56,
+      "atimeMs": 1524650174420.2903,
+      "mtimeMs": 1524649485255.2493,
+      "ctimeMs": 1524649485255.2493,
+      "birthtimeMs": 1524649485255.0576,
+      "atime": "2018-04-25T09:56:14.420Z",
+      "mtime": "2018-04-25T09:44:45.255Z",
+      "ctime": "2018-04-25T09:44:45.255Z",
+      "birthtime": "2018-04-25T09:44:45.255Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/02.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/02.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/02.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5a005bd6e50a92ebb852094e87bae405",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/thumbs/02.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/02.jpg",
+      "relativePath": "thumbs/02.jpg",
+      "extension": "jpg",
+      "size": 29668,
+      "prettySize": "29.7 kB",
+      "modifiedTime": "2018-04-25T09:44:45.256Z",
+      "accessTime": "2018-04-25T09:56:14.421Z",
+      "changeTime": "2018-04-25T09:44:45.256Z",
+      "birthTime": "2018-04-25T09:44:45.255Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs",
+      "base": "02.jpg",
+      "ext": ".jpg",
+      "name": "02",
+      "relativeDirectory": "thumbs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034180,
+      "blocks": 64,
+      "atimeMs": 1524650174420.882,
+      "mtimeMs": 1524649485255.7056,
+      "ctimeMs": 1524649485255.7056,
+      "birthtimeMs": 1524649485255.4768,
+      "atime": "2018-04-25T09:56:14.421Z",
+      "mtime": "2018-04-25T09:44:45.256Z",
+      "ctime": "2018-04-25T09:44:45.256Z",
+      "birthtime": "2018-04-25T09:44:45.255Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/03.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/03.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/03.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6c07129022e286d50d1da5af14d28045",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/thumbs/03.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/03.jpg",
+      "relativePath": "thumbs/03.jpg",
+      "extension": "jpg",
+      "size": 37420,
+      "prettySize": "37.4 kB",
+      "modifiedTime": "2018-04-25T09:44:45.256Z",
+      "accessTime": "2018-04-25T09:56:14.421Z",
+      "changeTime": "2018-04-25T09:44:45.256Z",
+      "birthTime": "2018-04-25T09:44:45.256Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs",
+      "base": "03.jpg",
+      "ext": ".jpg",
+      "name": "03",
+      "relativeDirectory": "thumbs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034181,
+      "blocks": 80,
+      "atimeMs": 1524650174421.2375,
+      "mtimeMs": 1524649485256.0842,
+      "ctimeMs": 1524649485256.0842,
+      "birthtimeMs": 1524649485255.8457,
+      "atime": "2018-04-25T09:56:14.421Z",
+      "mtime": "2018-04-25T09:44:45.256Z",
+      "ctime": "2018-04-25T09:44:45.256Z",
+      "birthtime": "2018-04-25T09:44:45.256Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/04.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/04.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/04.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f91f216f6dcccc296c646ccf71110979",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/thumbs/04.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/04.jpg",
+      "relativePath": "thumbs/04.jpg",
+      "extension": "jpg",
+      "size": 17350,
+      "prettySize": "17.4 kB",
+      "modifiedTime": "2018-04-25T09:44:45.256Z",
+      "accessTime": "2018-04-25T09:56:14.422Z",
+      "changeTime": "2018-04-25T09:44:45.256Z",
+      "birthTime": "2018-04-25T09:44:45.256Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs",
+      "base": "04.jpg",
+      "ext": ".jpg",
+      "name": "04",
+      "relativeDirectory": "thumbs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034182,
+      "blocks": 40,
+      "atimeMs": 1524650174421.595,
+      "mtimeMs": 1524649485256.3616,
+      "ctimeMs": 1524649485256.3616,
+      "birthtimeMs": 1524649485256.1848,
+      "atime": "2018-04-25T09:56:14.422Z",
+      "mtime": "2018-04-25T09:44:45.256Z",
+      "ctime": "2018-04-25T09:44:45.256Z",
+      "birthtime": "2018-04-25T09:44:45.256Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/05.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/05.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/05.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b9b1fc8ff6a17498e1436ed653764b58",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/thumbs/05.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/05.jpg",
+      "relativePath": "thumbs/05.jpg",
+      "extension": "jpg",
+      "size": 25429,
+      "prettySize": "25.4 kB",
+      "modifiedTime": "2018-04-25T09:44:45.257Z",
+      "accessTime": "2018-04-25T09:56:14.422Z",
+      "changeTime": "2018-04-25T09:44:45.257Z",
+      "birthTime": "2018-04-25T09:44:45.256Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs",
+      "base": "05.jpg",
+      "ext": ".jpg",
+      "name": "05",
+      "relativeDirectory": "thumbs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034183,
+      "blocks": 56,
+      "atimeMs": 1524650174422.127,
+      "mtimeMs": 1524649485256.6255,
+      "ctimeMs": 1524649485256.6255,
+      "birthtimeMs": 1524649485256.456,
+      "atime": "2018-04-25T09:56:14.422Z",
+      "mtime": "2018-04-25T09:44:45.257Z",
+      "ctime": "2018-04-25T09:44:45.257Z",
+      "birthtime": "2018-04-25T09:44:45.256Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/06.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/06.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/06.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "46276d05380390ac1bf441cac76b8f54",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/thumbs/06.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/06.jpg",
+      "relativePath": "thumbs/06.jpg",
+      "extension": "jpg",
+      "size": 34364,
+      "prettySize": "34.4 kB",
+      "modifiedTime": "2018-04-25T09:44:45.257Z",
+      "accessTime": "2018-04-25T09:56:14.423Z",
+      "changeTime": "2018-04-25T09:44:45.257Z",
+      "birthTime": "2018-04-25T09:44:45.257Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs",
+      "base": "06.jpg",
+      "ext": ".jpg",
+      "name": "06",
+      "relativeDirectory": "thumbs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034184,
+      "blocks": 72,
+      "atimeMs": 1524650174422.5417,
+      "mtimeMs": 1524649485256.9304,
+      "ctimeMs": 1524649485256.9304,
+      "birthtimeMs": 1524649485256.7131,
+      "atime": "2018-04-25T09:56:14.423Z",
+      "mtime": "2018-04-25T09:44:45.257Z",
+      "ctime": "2018-04-25T09:44:45.257Z",
+      "birthtime": "2018-04-25T09:44:45.257Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/04.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/04.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/04.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "21d06c5d186485c6e486f7745faeb5b9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/fulls/04.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/04.jpg",
+      "relativePath": "fulls/04.jpg",
+      "extension": "jpg",
+      "size": 44149,
+      "prettySize": "44.1 kB",
+      "modifiedTime": "2018-04-25T09:44:45.254Z",
+      "accessTime": "2018-04-25T09:56:14.425Z",
+      "changeTime": "2018-04-25T09:44:45.254Z",
+      "birthTime": "2018-04-25T09:44:45.253Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls",
+      "base": "04.jpg",
+      "ext": ".jpg",
+      "name": "04",
+      "relativeDirectory": "fulls",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034175,
+      "blocks": 88,
+      "atimeMs": 1524650174424.7898,
+      "mtimeMs": 1524649485253.6172,
+      "ctimeMs": 1524649485253.6172,
+      "birthtimeMs": 1524649485253.2466,
+      "atime": "2018-04-25T09:56:14.425Z",
+      "mtime": "2018-04-25T09:44:45.254Z",
+      "ctime": "2018-04-25T09:44:45.254Z",
+      "birthtime": "2018-04-25T09:44:45.253Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/01.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/01.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/01.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ce87a7b005c8d7be981ccd8137fcba3b",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/fulls/01.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/01.jpg",
+      "relativePath": "fulls/01.jpg",
+      "extension": "jpg",
+      "size": 81112,
+      "prettySize": "81.1 kB",
+      "modifiedTime": "2018-04-25T09:44:45.252Z",
+      "accessTime": "2018-04-25T09:56:14.423Z",
+      "changeTime": "2018-04-25T09:44:45.252Z",
+      "birthTime": "2018-04-25T09:44:45.252Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls",
+      "base": "01.jpg",
+      "ext": ".jpg",
+      "name": "01",
+      "relativeDirectory": "fulls",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034172,
+      "blocks": 160,
+      "atimeMs": 1524650174422.8923,
+      "mtimeMs": 1524649485252.0444,
+      "ctimeMs": 1524649485252.0444,
+      "birthtimeMs": 1524649485251.681,
+      "atime": "2018-04-25T09:56:14.423Z",
+      "mtime": "2018-04-25T09:44:45.252Z",
+      "ctime": "2018-04-25T09:44:45.252Z",
+      "birthtime": "2018-04-25T09:44:45.252Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/02.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/02.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/02.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6b930b4d9fa8b3049018335dccf73ce1",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/fulls/02.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/02.jpg",
+      "relativePath": "fulls/02.jpg",
+      "extension": "jpg",
+      "size": 95157,
+      "prettySize": "95.2 kB",
+      "modifiedTime": "2018-04-25T09:44:45.253Z",
+      "accessTime": "2018-04-25T09:56:14.424Z",
+      "changeTime": "2018-04-25T09:44:45.253Z",
+      "birthTime": "2018-04-25T09:44:45.252Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls",
+      "base": "02.jpg",
+      "ext": ".jpg",
+      "name": "02",
+      "relativeDirectory": "fulls",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034173,
+      "blocks": 192,
+      "atimeMs": 1524650174423.8208,
+      "mtimeMs": 1524649485252.536,
+      "ctimeMs": 1524649485252.536,
+      "birthtimeMs": 1524649485252.1301,
+      "atime": "2018-04-25T09:56:14.424Z",
+      "mtime": "2018-04-25T09:44:45.253Z",
+      "ctime": "2018-04-25T09:44:45.253Z",
+      "birthtime": "2018-04-25T09:44:45.252Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/03.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/03.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/03.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "527df6325a53113613522e648f6c2d4c",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/fulls/03.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/03.jpg",
+      "relativePath": "fulls/03.jpg",
+      "extension": "jpg",
+      "size": 100971,
+      "prettySize": "101 kB",
+      "modifiedTime": "2018-04-25T09:44:45.253Z",
+      "accessTime": "2018-04-25T09:56:14.424Z",
+      "changeTime": "2018-04-25T09:44:45.253Z",
+      "birthTime": "2018-04-25T09:44:45.253Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls",
+      "base": "03.jpg",
+      "ext": ".jpg",
+      "name": "03",
+      "relativeDirectory": "fulls",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034174,
+      "blocks": 200,
+      "atimeMs": 1524650174424.4412,
+      "mtimeMs": 1524649485253.163,
+      "ctimeMs": 1524649485253.163,
+      "birthtimeMs": 1524649485252.613,
+      "atime": "2018-04-25T09:56:14.424Z",
+      "mtime": "2018-04-25T09:44:45.253Z",
+      "ctime": "2018-04-25T09:44:45.253Z",
+      "birthtime": "2018-04-25T09:44:45.253Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/05.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/05.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/05.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6c7ec15e9ddfe636dbd8a07070266ef5",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/fulls/05.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/05.jpg",
+      "relativePath": "fulls/05.jpg",
+      "extension": "jpg",
+      "size": 83833,
+      "prettySize": "83.8 kB",
+      "modifiedTime": "2018-04-25T09:44:45.254Z",
+      "accessTime": "2018-04-25T09:56:14.425Z",
+      "changeTime": "2018-04-25T09:44:45.254Z",
+      "birthTime": "2018-04-25T09:44:45.254Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls",
+      "base": "05.jpg",
+      "ext": ".jpg",
+      "name": "05",
+      "relativeDirectory": "fulls",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034176,
+      "blocks": 168,
+      "atimeMs": 1524650174425.128,
+      "mtimeMs": 1524649485254.2026,
+      "ctimeMs": 1524649485254.2026,
+      "birthtimeMs": 1524649485253.7532,
+      "atime": "2018-04-25T09:56:14.425Z",
+      "mtime": "2018-04-25T09:44:45.254Z",
+      "ctime": "2018-04-25T09:44:45.254Z",
+      "birthtime": "2018-04-25T09:44:45.254Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/06.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/06.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/06.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4bc7a84922de28318f2ec45282e1bffe",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/fulls/06.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/06.jpg",
+      "relativePath": "fulls/06.jpg",
+      "extension": "jpg",
+      "size": 117779,
+      "prettySize": "118 kB",
+      "modifiedTime": "2018-04-25T09:44:45.255Z",
+      "accessTime": "2018-04-25T09:56:14.426Z",
+      "changeTime": "2018-04-25T09:44:45.255Z",
+      "birthTime": "2018-04-25T09:44:45.254Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls",
+      "base": "06.jpg",
+      "ext": ".jpg",
+      "name": "06",
+      "relativeDirectory": "fulls",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034177,
+      "blocks": 232,
+      "atimeMs": 1524650174425.521,
+      "mtimeMs": 1524649485254.7544,
+      "ctimeMs": 1524649485254.7544,
+      "birthtimeMs": 1524649485254.297,
+      "atime": "2018-04-25T09:56:14.426Z",
+      "mtime": "2018-04-25T09:44:45.255Z",
+      "ctime": "2018-04-25T09:44:45.255Z",
+      "birthtime": "2018-04-25T09:44:45.254Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/avatar.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/avatar.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/avatar.jpg absPath of file",
+      "internal": {
+        "contentDigest": "dfe5758e430275b5d474c4161aeacfaa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/01.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/01.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/01.jpg absPath of file",
+      "internal": {
+        "contentDigest": "6c866ee91adf8b061eaa83d7d286f64a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/02.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/02.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/02.jpg absPath of file",
+      "internal": {
+        "contentDigest": "5a005bd6e50a92ebb852094e87bae405",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/03.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/03.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/03.jpg absPath of file",
+      "internal": {
+        "contentDigest": "6c07129022e286d50d1da5af14d28045",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/04.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/04.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/04.jpg absPath of file",
+      "internal": {
+        "contentDigest": "f91f216f6dcccc296c646ccf71110979",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/05.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/05.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/05.jpg absPath of file",
+      "internal": {
+        "contentDigest": "b9b1fc8ff6a17498e1436ed653764b58",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/06.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/06.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/06.jpg absPath of file",
+      "internal": {
+        "contentDigest": "46276d05380390ac1bf441cac76b8f54",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/04.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/04.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/04.jpg absPath of file",
+      "internal": {
+        "contentDigest": "21d06c5d186485c6e486f7745faeb5b9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6befa5fe50faca3cf2048267f8084168",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/bg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg",
+      "relativePath": "bg.jpg",
+      "extension": "jpg",
+      "size": 168249,
+      "prettySize": "168 kB",
+      "modifiedTime": "2018-04-25T09:44:45.252Z",
+      "accessTime": "2018-04-25T09:58:13.927Z",
+      "changeTime": "2018-04-25T09:44:45.252Z",
+      "birthTime": "2018-04-25T09:44:45.250Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images",
+      "base": "bg.jpg",
+      "ext": ".jpg",
+      "name": "bg",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034170,
+      "blocks": 336,
+      "atimeMs": 1524650293927.0747,
+      "mtimeMs": 1524649485251.5398,
+      "ctimeMs": 1524649485251.5398,
+      "birthtimeMs": 1524649485250.3438,
+      "atime": "2018-04-25T09:58:13.927Z",
+      "mtime": "2018-04-25T09:44:45.252Z",
+      "ctime": "2018-04-25T09:44:45.252Z",
+      "birthtime": "2018-04-25T09:44:45.250Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/01.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/01.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/01.jpg absPath of file",
+      "internal": {
+        "contentDigest": "ce87a7b005c8d7be981ccd8137fcba3b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/02.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/02.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/02.jpg absPath of file",
+      "internal": {
+        "contentDigest": "6b930b4d9fa8b3049018335dccf73ce1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/03.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/03.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/03.jpg absPath of file",
+      "internal": {
+        "contentDigest": "527df6325a53113613522e648f6c2d4c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/05.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/05.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/05.jpg absPath of file",
+      "internal": {
+        "contentDigest": "6c7ec15e9ddfe636dbd8a07070266ef5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/06.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/06.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/06.jpg absPath of file",
+      "internal": {
+        "contentDigest": "4bc7a84922de28318f2ec45282e1bffe",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "6befa5fe50faca3cf2048267f8084168",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /hello-world/": {
+      "layout": "index",
+      "jsonName": "hello-world.json",
+      "internalComponentName": "ComponentHelloWorld",
+      "path": "/hello-world/",
+      "component": "/Users/jonnyn/JonGit/JonnynSite/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/jonnyn/JonGit/JonnynSite/src/templates/blog-post.js",
+      "id": "SitePage /hello-world/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bdf3a6204db918d4703464d94e0c95da",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hi-folks/": {
+      "layout": "index",
+      "jsonName": "hi-folks.json",
+      "internalComponentName": "ComponentHiFolks",
+      "path": "/hi-folks/",
+      "component": "/Users/jonnyn/JonGit/JonnynSite/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/jonnyn/JonGit/JonnynSite/src/templates/blog-post.js",
+      "id": "SitePage /hi-folks/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "301167028eb389e5b317cbd275705445",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /my-second-post/": {
+      "layout": "index",
+      "jsonName": "my-second-post.json",
+      "internalComponentName": "ComponentMySecondPost",
+      "path": "/my-second-post/",
+      "component": "/Users/jonnyn/JonGit/JonnynSite/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/jonnyn/JonGit/JonnynSite/src/templates/blog-post.js",
+      "id": "SitePage /my-second-post/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e7b0d97dacae926072e884ad4e5f0105",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/jonnyn/JonGit/JonnynSite/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/jonnyn/JonGit/JonnynSite/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bf6bd7420f3e17023bd652864146dadc",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "64d6779baf82c4a09094305178f407ac"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/my-second-post/",
+        "/hi-folks/",
+        "/hello-world/",
+        "/"
+      ],
+      "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark": [
+        "/my-second-post/"
+      ],
+      "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark": [
+        "/hi-folks/"
+      ],
+      "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark": [
+        "/hello-world/"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}
