@@ -8,7 +8,6 @@ exports.layouts = {
 
 exports.components = {
   "component---src-templates-blog-post-js": preferDefault(require("/Users/jonnyn/JonGit/JonnynSite/src/templates/blog-post.js")),
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/jonnyn/JonGit/JonnynSite/.cache/dev-404-page.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/jonnyn/JonGit/JonnynSite/src/pages/index.js")),
   "component---src-pages-projects-js": preferDefault(require("/Users/jonnyn/JonGit/JonnynSite/src/pages/projects.js"))
 }
@@ -18,7 +17,6 @@ exports.json = {
   "hi-folks.json": require("/Users/jonnyn/JonGit/JonnynSite/.cache/json/hi-folks.json"),
   "my-second-post.json": require("/Users/jonnyn/JonGit/JonnynSite/.cache/json/my-second-post.json"),
   "hello-world.json": require("/Users/jonnyn/JonGit/JonnynSite/.cache/json/hello-world.json"),
-  "dev-404-page.json": require("/Users/jonnyn/JonGit/JonnynSite/.cache/json/dev-404-page.json"),
   "index.json": require("/Users/jonnyn/JonGit/JonnynSite/.cache/json/index.json"),
   "projects.json": require("/Users/jonnyn/JonGit/JonnynSite/.cache/json/projects.json")
 }
