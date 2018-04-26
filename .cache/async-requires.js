@@ -3,6 +3,7 @@ const preferDefault = m => m && m.default || m
 
 exports.components = {
   "component---src-templates-blog-post-js": require("gatsby-module-loader?name=component---src-templates-blog-post-js!/Users/jonnyn/JonGit/JonnynSite/src/templates/blog-post.js"),
+  "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/jonnyn/JonGit/JonnynSite/.cache/dev-404-page.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/jonnyn/JonGit/JonnynSite/src/pages/index.js"),
   "component---src-pages-projects-js": require("gatsby-module-loader?name=component---src-pages-projects-js!/Users/jonnyn/JonGit/JonnynSite/src/pages/projects.js")
 }
@@ -12,6 +13,7 @@ exports.json = {
   "hi-folks.json": require("gatsby-module-loader?name=path---hi-folks!/Users/jonnyn/JonGit/JonnynSite/.cache/json/hi-folks.json"),
   "my-second-post.json": require("gatsby-module-loader?name=path---my-second-post!/Users/jonnyn/JonGit/JonnynSite/.cache/json/my-second-post.json"),
   "hello-world.json": require("gatsby-module-loader?name=path---hello-world!/Users/jonnyn/JonGit/JonnynSite/.cache/json/hello-world.json"),
+  "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/jonnyn/JonGit/JonnynSite/.cache/json/dev-404-page.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/jonnyn/JonGit/JonnynSite/.cache/json/index.json"),
   "projects.json": require("gatsby-module-loader?name=path---projects!/Users/jonnyn/JonGit/JonnynSite/.cache/json/projects.json")
 }
