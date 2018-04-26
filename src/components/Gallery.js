@@ -8,6 +8,7 @@ class Gallery extends Component {
 
         this.state = {
             lightboxIsOpen: false,
+            currentThumb: 0,
             currentImage: 0,
         };
 
@@ -21,13 +22,15 @@ class Gallery extends Component {
     openLightbox (index, event) {
         event.preventDefault();
         this.setState({
-            currentImage: index,
+            currentImage: 0,
+            currentThumb: index,
             lightboxIsOpen: true,
         });
     }
     closeLightbox () {
         this.setState({
             currentImage: 0,
+            currentThumb: 0,
             lightboxIsOpen: false,
         });
     }
@@ -47,7 +50,7 @@ class Gallery extends Component {
         });
     }
     handleClickImage () {
-        if (this.state.currentImage === this.props.images.length - 1) return;
+        if (this.state.currentImage === this.props.images[this.state.currentThumb].src.length - 1) return;
 
         this.gotoNext();
     }
@@ -61,7 +64,7 @@ class Gallery extends Component {
                 <article className="6u 12u$(xsmall) work-item" key={i}>
                     <a
                         className="image fit thumb"
-                        href={obj.src}
+                        href={obj.thumbnail}
                         onClick={(e) => this.openLightbox(i, e)}
                     >
                         <img src={obj.thumbnail} />
@@ -87,7 +90,7 @@ class Gallery extends Component {
                     imageTitle={this.state.imageTitle}
                     imageCaption={this.state.imageCaption}
                     currentImage={this.state.currentImage}
-                    images={this.props.images}
+                    images={this.props.images[this.state.currentThumb].src}
                     isOpen={this.state.lightboxIsOpen}
                     onClickImage={this.handleClickImage}
                     onClickNext={this.gotoNext}

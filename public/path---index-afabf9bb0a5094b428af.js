@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{494:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Jonny Nguyen",description:"My Personal Page and Blog"}}},pathContext:{}}}});
+//# sourceMappingURL=path---index-afabf9bb0a5094b428af.js.map
