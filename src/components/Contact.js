@@ -14,18 +14,15 @@ export default class Contact extends React.Component {
             <p></p>
             <div className="row">
                 <div className="8u 12u$(small)">
-                    <form name="contact" method="post" action="https://formspree.io/jonnyn@live.com" >
+                    <form action="https://formspree.io/jonnyn@live.com" method="POST">
                         <div className="row uniform 50%">
                             <input type="hidden" name="_subject" value="Contact from Jonnyn.com" />
-                            <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                            <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                            <div className="6u 12u$(xsmall)"><input type="text" name="name" placeholder="Name" /></div>
+                            <div className="6u 12u$(xsmall)"><input type="email" name="_replyto" placeholder="Email" /></div>
                             <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4" ></textarea></div>
-                            {/* <div className="6u 12u$(xsmall)"><input type="text" name="_gotcha" style="display:none" /></div> */}
+                            <div className="6u 12u$(xsmall)"><input type="submit" value="Send Message" /></div>
                         </div>
                     </form>
-                    <ul className="actions">
-                        <li><input type="submit" value="Send Message"/></li>
-                    </ul>
                 </div>
                 <div className="4u 12u$(small)">
                     <ul className="labeled-icons">
