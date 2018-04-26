@@ -1088,12 +1088,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-04-26T20:25:36.581Z",
+      "buildTime": "2018-04-26T21:08:21.331Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d2218c985371808051b99289f815fd99",
+        "contentDigest": "2b884c6469dac2d12e7a6a05bf27babe",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1103,7 +1103,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bb9a44f25117538b1301c529c297a49e",
+        "contentDigest": "292cc123deffa6a20df93af4b92689e6",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1115,7 +1115,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-04-25T09:44:45.264Z",
-      "accessTime": "2018-04-26T20:25:38.281Z",
+      "accessTime": "2018-04-26T21:08:23.197Z",
       "changeTime": "2018-04-25T09:44:45.264Z",
       "birthTime": "2018-04-25T09:44:45.260Z",
       "root": "/",
@@ -1133,11 +1133,11 @@
       "blksize": 4194304,
       "ino": 8596034203,
       "blocks": 0,
-      "atimeMs": 1524774338281.0508,
+      "atimeMs": 1524776903196.871,
       "mtimeMs": 1524649485264.0654,
       "ctimeMs": 1524649485264.0654,
       "birthtimeMs": 1524649485260.3386,
-      "atime": "2018-04-26T20:25:38.281Z",
+      "atime": "2018-04-26T21:08:23.197Z",
       "mtime": "2018-04-25T09:44:45.264Z",
       "ctime": "2018-04-25T09:44:45.264Z",
       "birthtime": "2018-04-25T09:44:45.260Z"
@@ -1147,7 +1147,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2baf96c7efcd2a9b7c7e4f687a13a6e0",
+        "contentDigest": "9014309e51db1d66d0795eb43c1824b9",
         "type": "Directory",
         "description": "Directory \"src/posts/hello-world\"",
         "owner": "gatsby-source-filesystem"
@@ -1159,7 +1159,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-04-25T09:44:45.261Z",
-      "accessTime": "2018-04-26T20:25:38.283Z",
+      "accessTime": "2018-04-26T21:08:23.199Z",
       "changeTime": "2018-04-25T09:44:45.261Z",
       "birthTime": "2018-04-25T09:44:45.260Z",
       "root": "/",
@@ -1177,11 +1177,11 @@
       "blksize": 4194304,
       "ino": 8596034204,
       "blocks": 0,
-      "atimeMs": 1524774338282.9612,
+      "atimeMs": 1524776903199.4397,
       "mtimeMs": 1524649485260.6765,
       "ctimeMs": 1524649485260.6765,
       "birthtimeMs": 1524649485260.3997,
-      "atime": "2018-04-26T20:25:38.283Z",
+      "atime": "2018-04-26T21:08:23.199Z",
       "mtime": "2018-04-25T09:44:45.261Z",
       "ctime": "2018-04-25T09:44:45.261Z",
       "birthtime": "2018-04-25T09:44:45.260Z"
@@ -1191,7 +1191,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e0f98a3122be42cceb3e90b2e743a4fe",
+        "contentDigest": "402f0100594b63067ee210dddad8d24a",
         "type": "Directory",
         "description": "Directory \"src/posts/hi-folks\"",
         "owner": "gatsby-source-filesystem"
@@ -1203,7 +1203,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-04-25T09:44:45.264Z",
-      "accessTime": "2018-04-26T20:25:38.283Z",
+      "accessTime": "2018-04-26T21:08:23.200Z",
       "changeTime": "2018-04-25T09:44:45.264Z",
       "birthTime": "2018-04-25T09:44:45.264Z",
       "root": "/",
@@ -1221,11 +1221,11 @@
       "blksize": 4194304,
       "ino": 8596034207,
       "blocks": 0,
-      "atimeMs": 1524774338283.0017,
+      "atimeMs": 1524776903199.5063,
       "mtimeMs": 1524649485263.7292,
       "ctimeMs": 1524649485263.7292,
       "birthtimeMs": 1524649485263.6348,
-      "atime": "2018-04-26T20:25:38.283Z",
+      "atime": "2018-04-26T21:08:23.200Z",
       "mtime": "2018-04-25T09:44:45.264Z",
       "ctime": "2018-04-25T09:44:45.264Z",
       "birthtime": "2018-04-25T09:44:45.264Z"
@@ -1235,7 +1235,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b7297b814124eaabe856ba021e94ed3f",
+        "contentDigest": "d21a12fb0994e6d8c430faebd094e31f",
         "type": "Directory",
         "description": "Directory \"src/posts/my-second-post\"",
         "owner": "gatsby-source-filesystem"
@@ -1247,7 +1247,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-04-25T09:44:45.264Z",
-      "accessTime": "2018-04-26T20:25:38.283Z",
+      "accessTime": "2018-04-26T21:08:23.199Z",
       "changeTime": "2018-04-25T09:44:45.264Z",
       "birthTime": "2018-04-25T09:44:45.264Z",
       "root": "/",
@@ -1265,11 +1265,11 @@
       "blksize": 4194304,
       "ino": 8596034209,
       "blocks": 0,
-      "atimeMs": 1524774338283.0063,
+      "atimeMs": 1524776903199.4446,
       "mtimeMs": 1524649485264.1782,
       "ctimeMs": 1524649485264.1782,
       "birthtimeMs": 1524649485264.0557,
-      "atime": "2018-04-26T20:25:38.283Z",
+      "atime": "2018-04-26T21:08:23.199Z",
       "mtime": "2018-04-25T09:44:45.264Z",
       "ctime": "2018-04-25T09:44:45.264Z",
       "birthtime": "2018-04-25T09:44:45.264Z"
@@ -1328,7 +1328,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "97676fc4817b367bb9b1ef09d1fdd026",
+        "contentDigest": "60247609a11fa09d336477e862d2faab",
         "mediaType": "text/markdown",
         "type": "File",
         "description": "File \"src/posts/hello-world/index.md\"",
@@ -1338,11 +1338,11 @@
       "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md",
       "relativePath": "hello-world/index.md",
       "extension": "md",
-      "size": 862,
-      "prettySize": "862 B",
-      "modifiedTime": "2018-04-26T18:44:56.616Z",
-      "accessTime": "2018-04-26T20:23:47.721Z",
-      "changeTime": "2018-04-26T18:44:56.616Z",
+      "size": 861,
+      "prettySize": "861 B",
+      "modifiedTime": "2018-04-26T20:31:37.163Z",
+      "accessTime": "2018-04-26T20:31:37.162Z",
+      "changeTime": "2018-04-26T20:31:37.163Z",
       "birthTime": "2018-04-25T09:44:45.260Z",
       "root": "/",
       "dir": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world",
@@ -1359,13 +1359,13 @@
       "blksize": 4194304,
       "ino": 8596034205,
       "blocks": 8,
-      "atimeMs": 1524774227721.0344,
-      "mtimeMs": 1524768296616.3276,
-      "ctimeMs": 1524768296616.3276,
+      "atimeMs": 1524774697162.1687,
+      "mtimeMs": 1524774697162.9248,
+      "ctimeMs": 1524774697162.9248,
       "birthtimeMs": 1524649485260.478,
-      "atime": "2018-04-26T20:23:47.721Z",
-      "mtime": "2018-04-26T18:44:56.616Z",
-      "ctime": "2018-04-26T18:44:56.616Z",
+      "atime": "2018-04-26T20:31:37.162Z",
+      "mtime": "2018-04-26T20:31:37.163Z",
+      "ctime": "2018-04-26T20:31:37.163Z",
       "birthtime": "2018-04-25T09:44:45.260Z"
     },
     "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md absPath of file": {
@@ -1434,26 +1434,6 @@
       },
       "excerpt": "",
       "fileAbsolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hi-folks/index.md"
-    },
-    "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: Hello World\ndate: \"2018-04-026T12:12:03.284Z\"\npath: \"/hello-world/\"\n---\n\nThis is my first post on my new blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n>A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste. The eggs may also be sold with the salted paste removed, wrapped in plastic, and vacuum packed. From the salt curing process, the salted duck eggs have a briny aroma, a gelatin-like egg white and a firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "cedc34db729020fc311b770d439f0845",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Hello World",
-        "date": "2018-04-026T12:12:03.284Z",
-        "path": "/hello-world/",
-        "_PARENT": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file",
-        "parent": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md"
     },
     "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark",
@@ -1537,7 +1517,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ddb1d0b0cbfe7dda335aae4f86c1e046",
+        "contentDigest": "cb68c27db023035cdba125e6290e3cb1",
         "type": "Directory",
         "description": "Directory \"src/assets/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1548,9 +1528,9 @@
       "extension": "",
       "size": 288,
       "prettySize": "288 B",
-      "modifiedTime": "2018-04-26T16:16:26.755Z",
-      "accessTime": "2018-04-26T20:25:38.311Z",
-      "changeTime": "2018-04-26T16:16:26.755Z",
+      "modifiedTime": "2018-04-26T20:34:10.265Z",
+      "accessTime": "2018-04-26T21:08:23.213Z",
+      "changeTime": "2018-04-26T20:34:10.265Z",
       "birthTime": "2018-04-25T09:44:45.250Z",
       "root": "/",
       "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets",
@@ -1567,13 +1547,13 @@
       "blksize": 4194304,
       "ino": 8596034167,
       "blocks": 0,
-      "atimeMs": 1524774338310.866,
-      "mtimeMs": 1524759386755.4543,
-      "ctimeMs": 1524759386755.4543,
+      "atimeMs": 1524776903212.6565,
+      "mtimeMs": 1524774850264.8613,
+      "ctimeMs": 1524774850264.8613,
       "birthtimeMs": 1524649485250.0823,
-      "atime": "2018-04-26T20:25:38.311Z",
-      "mtime": "2018-04-26T16:16:26.755Z",
-      "ctime": "2018-04-26T16:16:26.755Z",
+      "atime": "2018-04-26T21:08:23.213Z",
+      "mtime": "2018-04-26T20:34:10.265Z",
+      "ctime": "2018-04-26T20:34:10.265Z",
       "birthtime": "2018-04-25T09:44:45.250Z"
     },
     "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls absPath of file": {
@@ -1581,7 +1561,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c6426eb563d7baf2e6978c09e613d8bb",
+        "contentDigest": "06f1c49aec5cbafbb9c62b2cdb178d99",
         "type": "Directory",
         "description": "Directory \"src/assets/images/fulls\"",
         "owner": "gatsby-source-filesystem"
@@ -1593,7 +1573,7 @@
       "size": 352,
       "prettySize": "352 B",
       "modifiedTime": "2018-04-26T19:42:39.377Z",
-      "accessTime": "2018-04-26T20:25:38.312Z",
+      "accessTime": "2018-04-26T21:08:23.214Z",
       "changeTime": "2018-04-26T19:42:39.377Z",
       "birthTime": "2018-04-25T09:44:45.252Z",
       "root": "/",
@@ -1611,11 +1591,11 @@
       "blksize": 4194304,
       "ino": 8596034171,
       "blocks": 0,
-      "atimeMs": 1524774338311.9187,
+      "atimeMs": 1524776903213.5393,
       "mtimeMs": 1524771759377.3374,
       "ctimeMs": 1524771759377.3374,
       "birthtimeMs": 1524649485251.63,
-      "atime": "2018-04-26T20:25:38.312Z",
+      "atime": "2018-04-26T21:08:23.214Z",
       "mtime": "2018-04-26T19:42:39.377Z",
       "ctime": "2018-04-26T19:42:39.377Z",
       "birthtime": "2018-04-25T09:44:45.252Z"
@@ -1625,7 +1605,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1a8d378ff6a962dd44d09cfb142d04a7",
+        "contentDigest": "e33d62e311563c76ef7d7c1c7d37c860",
         "type": "Directory",
         "description": "Directory \"src/assets/images/thumbs\"",
         "owner": "gatsby-source-filesystem"
@@ -1637,7 +1617,7 @@
       "size": 352,
       "prettySize": "352 B",
       "modifiedTime": "2018-04-26T19:48:47.238Z",
-      "accessTime": "2018-04-26T20:25:38.312Z",
+      "accessTime": "2018-04-26T21:08:23.214Z",
       "changeTime": "2018-04-26T19:48:47.238Z",
       "birthTime": "2018-04-25T09:44:45.255Z",
       "root": "/",
@@ -1655,11 +1635,11 @@
       "blksize": 4194304,
       "ino": 8596034178,
       "blocks": 0,
-      "atimeMs": 1524774338311.9976,
+      "atimeMs": 1524776903213.558,
       "mtimeMs": 1524772127237.5654,
       "ctimeMs": 1524772127237.5654,
       "birthtimeMs": 1524649485254.9775,
-      "atime": "2018-04-26T20:25:38.312Z",
+      "atime": "2018-04-26T21:08:23.214Z",
       "mtime": "2018-04-26T19:48:47.238Z",
       "ctime": "2018-04-26T19:48:47.238Z",
       "birthtime": "2018-04-25T09:44:45.255Z"
@@ -1669,7 +1649,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "499156c8bc8482e55aacb38b4f22a123",
+        "contentDigest": "b47ecf208f22d994ffd053a617868ff1",
         "type": "Directory",
         "description": "Directory \"src/assets/images/fulls/CatchThem\"",
         "owner": "gatsby-source-filesystem"
@@ -1681,7 +1661,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-04-26T19:51:12.442Z",
-      "accessTime": "2018-04-26T20:25:38.314Z",
+      "accessTime": "2018-04-26T21:08:23.216Z",
       "changeTime": "2018-04-26T19:51:12.442Z",
       "birthTime": "2018-04-26T19:42:36.148Z",
       "root": "/",
@@ -1699,11 +1679,11 @@
       "blksize": 4194304,
       "ino": 8596095976,
       "blocks": 0,
-      "atimeMs": 1524774338314.2783,
+      "atimeMs": 1524776903216.0027,
       "mtimeMs": 1524772272442.3584,
       "ctimeMs": 1524772272442.3584,
       "birthtimeMs": 1524771756148.3672,
-      "atime": "2018-04-26T20:25:38.314Z",
+      "atime": "2018-04-26T21:08:23.216Z",
       "mtime": "2018-04-26T19:51:12.442Z",
       "ctime": "2018-04-26T19:51:12.442Z",
       "birthtime": "2018-04-26T19:42:36.148Z"
@@ -1713,7 +1693,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d76145de5c20565525963b889fbe125b",
+        "contentDigest": "3ba1ef1f3c32224f5ab1e2c552d0e100",
         "type": "Directory",
         "description": "Directory \"src/assets/images/fulls/Citizenship\"",
         "owner": "gatsby-source-filesystem"
@@ -1725,7 +1705,7 @@
       "size": 416,
       "prettySize": "416 B",
       "modifiedTime": "2018-04-26T18:19:32.471Z",
-      "accessTime": "2018-04-26T20:25:38.314Z",
+      "accessTime": "2018-04-26T21:08:23.216Z",
       "changeTime": "2018-04-26T18:19:32.471Z",
       "birthTime": "2018-04-26T18:07:30.553Z",
       "root": "/",
@@ -1743,11 +1723,11 @@
       "blksize": 4194304,
       "ino": 8596094092,
       "blocks": 0,
-      "atimeMs": 1524774338314.2932,
+      "atimeMs": 1524776903216.0583,
       "mtimeMs": 1524766772470.999,
       "ctimeMs": 1524766772470.999,
       "birthtimeMs": 1524766050552.6357,
-      "atime": "2018-04-26T20:25:38.314Z",
+      "atime": "2018-04-26T21:08:23.216Z",
       "mtime": "2018-04-26T18:19:32.471Z",
       "ctime": "2018-04-26T18:19:32.471Z",
       "birthtime": "2018-04-26T18:07:30.553Z"
@@ -1757,7 +1737,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "39a8c2634dc692480384168bf756f752",
+        "contentDigest": "85cffcac5f042234390352f4187a513f",
         "type": "Directory",
         "description": "Directory \"src/assets/images/fulls/EpixAndroid\"",
         "owner": "gatsby-source-filesystem"
@@ -1769,7 +1749,7 @@
       "size": 384,
       "prettySize": "384 B",
       "modifiedTime": "2018-04-26T17:55:32.158Z",
-      "accessTime": "2018-04-26T20:25:38.314Z",
+      "accessTime": "2018-04-26T21:08:23.216Z",
       "changeTime": "2018-04-26T17:55:32.158Z",
       "birthTime": "2018-04-26T04:22:48.258Z",
       "root": "/",
@@ -1787,11 +1767,11 @@
       "blksize": 4194304,
       "ino": 8596090993,
       "blocks": 0,
-      "atimeMs": 1524774338314.32,
+      "atimeMs": 1524776903216.0305,
       "mtimeMs": 1524765332157.7463,
       "ctimeMs": 1524765332157.7463,
       "birthtimeMs": 1524716568258.1016,
-      "atime": "2018-04-26T20:25:38.314Z",
+      "atime": "2018-04-26T21:08:23.216Z",
       "mtime": "2018-04-26T17:55:32.158Z",
       "ctime": "2018-04-26T17:55:32.158Z",
       "birthtime": "2018-04-26T04:22:48.258Z"
@@ -1801,7 +1781,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "040e90eade27c55c1c7c61bc9a1b0f02",
+        "contentDigest": "2b413d2edd59b5305e8e3f08cfb4cbf3",
         "type": "Directory",
         "description": "Directory \"src/assets/images/fulls/EpixWindows8\"",
         "owner": "gatsby-source-filesystem"
@@ -1813,7 +1793,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2018-04-26T16:10:55.359Z",
-      "accessTime": "2018-04-26T20:25:38.314Z",
+      "accessTime": "2018-04-26T21:08:23.216Z",
       "changeTime": "2018-04-26T16:16:26.752Z",
       "birthTime": "2018-04-26T04:23:50.492Z",
       "root": "/",
@@ -1831,11 +1811,11 @@
       "blksize": 4194304,
       "ino": 8596090994,
       "blocks": 0,
-      "atimeMs": 1524774338314.3066,
+      "atimeMs": 1524776903216.0164,
       "mtimeMs": 1524759055359.3416,
       "ctimeMs": 1524759386752.1133,
       "birthtimeMs": 1524716630491.504,
-      "atime": "2018-04-26T20:25:38.314Z",
+      "atime": "2018-04-26T21:08:23.216Z",
       "mtime": "2018-04-26T16:10:55.359Z",
       "ctime": "2018-04-26T16:16:26.752Z",
       "birthtime": "2018-04-26T04:23:50.492Z"
@@ -1845,7 +1825,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2fb68793326f94869e3fcbe09c769d14",
+        "contentDigest": "a31881dd84a4d1f1f6971ca6c19f842c",
         "type": "Directory",
         "description": "Directory \"src/assets/images/fulls/OpenVideo\"",
         "owner": "gatsby-source-filesystem"
@@ -1857,7 +1837,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-04-26T18:16:51.948Z",
-      "accessTime": "2018-04-26T20:25:38.314Z",
+      "accessTime": "2018-04-26T21:08:23.217Z",
       "changeTime": "2018-04-26T18:16:51.948Z",
       "birthTime": "2018-04-26T18:16:48.944Z",
       "root": "/",
@@ -1875,11 +1855,11 @@
       "blksize": 4194304,
       "ino": 8596094355,
       "blocks": 0,
-      "atimeMs": 1524774338314.3342,
+      "atimeMs": 1524776903216.9817,
       "mtimeMs": 1524766611948.4707,
       "ctimeMs": 1524766611948.4707,
       "birthtimeMs": 1524766608944.4285,
-      "atime": "2018-04-26T20:25:38.314Z",
+      "atime": "2018-04-26T21:08:23.217Z",
       "mtime": "2018-04-26T18:16:51.948Z",
       "ctime": "2018-04-26T18:16:51.948Z",
       "birthtime": "2018-04-26T18:16:48.944Z"
@@ -1889,7 +1869,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f8d9fb5b6c6f44792358caf1d28060db",
+        "contentDigest": "26ae3d9ff89cc22689bb5592348b7c61",
         "type": "Directory",
         "description": "Directory \"src/assets/images/fulls/Proteus\"",
         "owner": "gatsby-source-filesystem"
@@ -1901,7 +1881,7 @@
       "size": 352,
       "prettySize": "352 B",
       "modifiedTime": "2018-04-26T16:13:30.685Z",
-      "accessTime": "2018-04-26T20:25:38.314Z",
+      "accessTime": "2018-04-26T21:08:23.216Z",
       "changeTime": "2018-04-26T16:16:26.754Z",
       "birthTime": "2018-04-26T04:25:06.435Z",
       "root": "/",
@@ -1919,11 +1899,11 @@
       "blksize": 4194304,
       "ino": 8596090995,
       "blocks": 0,
-      "atimeMs": 1524774338314.3542,
+      "atimeMs": 1524776903216.0771,
       "mtimeMs": 1524759210685.3452,
       "ctimeMs": 1524759386753.736,
       "birthtimeMs": 1524716706435.1472,
-      "atime": "2018-04-26T20:25:38.314Z",
+      "atime": "2018-04-26T21:08:23.216Z",
       "mtime": "2018-04-26T16:13:30.685Z",
       "ctime": "2018-04-26T16:16:26.754Z",
       "birthtime": "2018-04-26T04:25:06.435Z"
@@ -1933,7 +1913,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4634683d8924e77b3e70a40deea7fe21",
+        "contentDigest": "dd6e26d055f651b7c6fe23e34118288f",
         "type": "Directory",
         "description": "Directory \"src/assets/images/fulls/TLIM\"",
         "owner": "gatsby-source-filesystem"
@@ -1945,7 +1925,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2018-04-26T17:57:33.125Z",
-      "accessTime": "2018-04-26T20:25:38.314Z",
+      "accessTime": "2018-04-26T21:08:23.218Z",
       "changeTime": "2018-04-26T17:57:33.125Z",
       "birthTime": "2018-04-26T16:25:26.070Z",
       "root": "/",
@@ -1963,11 +1943,11 @@
       "blksize": 4194304,
       "ino": 8596092319,
       "blocks": 0,
-      "atimeMs": 1524774338314.3677,
+      "atimeMs": 1524776903218.003,
       "mtimeMs": 1524765453124.78,
       "ctimeMs": 1524765453124.78,
       "birthtimeMs": 1524759926069.5037,
-      "atime": "2018-04-26T20:25:38.314Z",
+      "atime": "2018-04-26T21:08:23.218Z",
       "mtime": "2018-04-26T17:57:33.125Z",
       "ctime": "2018-04-26T17:57:33.125Z",
       "birthtime": "2018-04-26T16:25:26.070Z"
@@ -1977,7 +1957,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ba0aa6475028716128c71eb884edc54c",
+        "contentDigest": "bbc55943f3053c4bdb4e8bd5cc6b7f5b",
         "type": "Directory",
         "description": "Directory \"src/assets/images/fulls/ThisLife\"",
         "owner": "gatsby-source-filesystem"
@@ -1989,7 +1969,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-04-26T16:14:14.829Z",
-      "accessTime": "2018-04-26T20:25:38.314Z",
+      "accessTime": "2018-04-26T21:08:23.216Z",
       "changeTime": "2018-04-26T16:16:26.755Z",
       "birthTime": "2018-04-26T16:05:41.815Z",
       "root": "/",
@@ -2007,11 +1987,11 @@
       "blksize": 4194304,
       "ino": 8596090996,
       "blocks": 0,
-      "atimeMs": 1524774338314.381,
+      "atimeMs": 1524776903216.1052,
       "mtimeMs": 1524759254829.224,
       "ctimeMs": 1524759386755.454,
       "birthtimeMs": 1524758741815.1301,
-      "atime": "2018-04-26T20:25:38.314Z",
+      "atime": "2018-04-26T21:08:23.216Z",
       "mtime": "2018-04-26T16:14:14.829Z",
       "ctime": "2018-04-26T16:16:26.755Z",
       "birthtime": "2018-04-26T16:05:41.815Z"
@@ -2107,53 +2087,6 @@
       "mtime": "2018-04-25T09:44:45.250Z",
       "ctime": "2018-04-25T09:44:45.250Z",
       "birthtime": "2018-04-25T09:44:45.250Z"
-    },
-    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg absPath of file": {
-      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg absPath of file",
-      "children": [
-        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "547bd7e3b990ac7c62e8399aabba9bcd",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/assets/images/bg1.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg",
-      "relativePath": "bg1.jpg",
-      "extension": "jpg",
-      "size": 18368,
-      "prettySize": "18.4 kB",
-      "modifiedTime": "2018-04-25T23:48:54.616Z",
-      "accessTime": "2018-04-26T20:23:47.717Z",
-      "changeTime": "2018-04-25T23:49:14.975Z",
-      "birthTime": "2018-04-25T23:48:54.616Z",
-      "root": "/",
-      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images",
-      "base": "bg1.jpg",
-      "ext": ".jpg",
-      "name": "bg1",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8596086245,
-      "blocks": 40,
-      "atimeMs": 1524774227717.2622,
-      "mtimeMs": 1524700134616.0278,
-      "ctimeMs": 1524700154974.5923,
-      "birthtimeMs": 1524700134615.7852,
-      "atime": "2018-04-26T20:23:47.717Z",
-      "mtime": "2018-04-25T23:48:54.616Z",
-      "ctime": "2018-04-25T23:49:14.975Z",
-      "birthtime": "2018-04-25T23:48:54.616Z"
     },
     "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/.DS_Store absPath of file": {
       "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/fulls/.DS_Store absPath of file",
@@ -3980,16 +3913,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg absPath of file",
-      "internal": {
-        "contentDigest": "547bd7e3b990ac7c62e8399aabba9bcd",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/EpixLogoMedium.jpg absPath of file >> ImageSharp": {
       "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/EpixLogoMedium.jpg absPath of file >> ImageSharp",
       "children": [],
@@ -4149,53 +4072,6 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
-    },
-    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file": {
-      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file",
-      "children": [
-        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "6befa5fe50faca3cf2048267f8084168",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/assets/images/bg.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg",
-      "relativePath": "bg.jpg",
-      "extension": "jpg",
-      "size": 168249,
-      "prettySize": "168 kB",
-      "modifiedTime": "2018-04-25T09:44:45.252Z",
-      "accessTime": "2018-04-26T20:23:47.717Z",
-      "changeTime": "2018-04-25T09:44:45.252Z",
-      "birthTime": "2018-04-25T09:44:45.250Z",
-      "root": "/",
-      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images",
-      "base": "bg.jpg",
-      "ext": ".jpg",
-      "name": "bg",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8596034170,
-      "blocks": 336,
-      "atimeMs": 1524774227717.2349,
-      "mtimeMs": 1524649485251.5398,
-      "ctimeMs": 1524649485251.5398,
-      "birthtimeMs": 1524649485250.3438,
-      "atime": "2018-04-26T20:23:47.717Z",
-      "mtime": "2018-04-25T09:44:45.252Z",
-      "ctime": "2018-04-25T09:44:45.252Z",
-      "birthtime": "2018-04-25T09:44:45.250Z"
     },
     "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/CatchThem.png absPath of file": {
       "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/CatchThem.png absPath of file",
@@ -4759,16 +4635,6 @@
       "mtime": "2017-08-18T21:30:45.000Z",
       "ctime": "2018-04-26T18:10:59.481Z",
       "birthtime": "2017-08-18T21:30:45.000Z"
-    },
-    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file",
-      "internal": {
-        "contentDigest": "6befa5fe50faca3cf2048267f8084168",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/CatchThem.png absPath of file >> ImageSharp": {
       "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/thumbs/CatchThem.png absPath of file >> ImageSharp",
@@ -5943,6 +5809,140 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Hello World\ndate: \"2018-04-28T22:40:32.169Z\"\npath: \"/hello-world/\"\n---\n\nThis is my first post on my new blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n>A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste. The eggs may also be sold with the salted paste removed, wrapped in plastic, and vacuum packed. From the salt curing process, the salted duck eggs have a briny aroma, a gelatin-like egg white and a firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "be1a5767e572d47b8df7f4141a07f4fc",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "date": "2018-04-28T22:40:32.169Z",
+        "path": "/hello-world/",
+        "_PARENT": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file",
+        "parent": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/posts/hello-world/index.md"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "547bd7e3b990ac7c62e8399aabba9bcd",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/bg1.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg",
+      "relativePath": "bg1.jpg",
+      "extension": "jpg",
+      "size": 18368,
+      "prettySize": "18.4 kB",
+      "modifiedTime": "2018-04-26T20:32:17.321Z",
+      "accessTime": "2018-04-26T20:34:06.977Z",
+      "changeTime": "2018-04-26T20:34:06.793Z",
+      "birthTime": "2018-04-25T23:48:54.616Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images",
+      "base": "bg1.jpg",
+      "ext": ".jpg",
+      "name": "bg1",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596086245,
+      "blocks": 40,
+      "atimeMs": 1524774846976.8262,
+      "mtimeMs": 1524774737321,
+      "ctimeMs": 1524774846792.9246,
+      "birthtimeMs": 1524700134615.7852,
+      "atime": "2018-04-26T20:34:06.977Z",
+      "mtime": "2018-04-26T20:32:17.321Z",
+      "ctime": "2018-04-26T20:34:06.793Z",
+      "birthtime": "2018-04-25T23:48:54.616Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg1.jpg absPath of file",
+      "internal": {
+        "contentDigest": "547bd7e3b990ac7c62e8399aabba9bcd",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file",
+      "children": [
+        "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6befa5fe50faca3cf2048267f8084168",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/bg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg",
+      "relativePath": "bg.jpg",
+      "extension": "jpg",
+      "size": 168249,
+      "prettySize": "168 kB",
+      "modifiedTime": "2018-04-26T20:32:06.964Z",
+      "accessTime": "2018-04-26T20:34:10.318Z",
+      "changeTime": "2018-04-26T20:34:10.265Z",
+      "birthTime": "2018-04-25T09:44:45.250Z",
+      "root": "/",
+      "dir": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images",
+      "base": "bg.jpg",
+      "ext": ".jpg",
+      "name": "bg",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596034170,
+      "blocks": 336,
+      "atimeMs": 1524774850318.414,
+      "mtimeMs": 1524774726964,
+      "ctimeMs": 1524774850264.861,
+      "birthtimeMs": 1524649485250.3438,
+      "atime": "2018-04-26T20:34:10.318Z",
+      "mtime": "2018-04-26T20:32:06.964Z",
+      "ctime": "2018-04-26T20:34:10.265Z",
+      "birthtime": "2018-04-25T09:44:45.250Z"
+    },
+    "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonnyn/JonGit/JonnynSite/src/assets/images/bg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "6befa5fe50faca3cf2048267f8084168",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "SitePage /hi-folks/": {
       "layout": "index",
       "jsonName": "hi-folks.json",
@@ -5959,28 +5959,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "358bf07d951f0a7fd215741bd66c8e1d",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /hello-world/": {
-      "layout": "index",
-      "jsonName": "hello-world.json",
-      "internalComponentName": "ComponentHelloWorld",
-      "path": "/hello-world/",
-      "component": "/Users/jonnyn/JonGit/JonnynSite/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/jonnyn/JonGit/JonnynSite/src/templates/blog-post.js",
-      "id": "SitePage /hello-world/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "1814de23afddad0125cac7af26cefb9a",
+        "contentDigest": "9a3891fbdf8d734a8ee4a5f5f54ff588",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -6001,7 +5980,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "910f1a44b64b178f841d019b6f31433c",
+        "contentDigest": "b595da003272cfce4834a2fbe9bfe475",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hello-world/": {
+      "layout": "index",
+      "jsonName": "hello-world.json",
+      "internalComponentName": "ComponentHelloWorld",
+      "path": "/hello-world/",
+      "component": "/Users/jonnyn/JonGit/JonnynSite/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/jonnyn/JonGit/JonnynSite/src/templates/blog-post.js",
+      "id": "SitePage /hello-world/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "33b32b19c179ba37dcb9f0ad7f190c88",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -6022,7 +6022,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c4496652d05fcb413716564c2d18eaaa",
+        "contentDigest": "e906bdf3a76250b3e3a2fa2541bbac0e",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -6043,7 +6043,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5c84b115b57d945af9de81cae025e73a",
+        "contentDigest": "7998f78435a1f45a0d98e65f2c5eab7b",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -6071,6 +6071,10 @@
         "/hi-folks/"
       ]
     },
-    "connections": {}
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
   }
 }

@@ -15,8 +15,8 @@ exports.components = {
 exports.json = {
   "layout-index.json": require("/Users/jonnyn/JonGit/JonnynSite/.cache/json/layout-index.json"),
   "hi-folks.json": require("/Users/jonnyn/JonGit/JonnynSite/.cache/json/hi-folks.json"),
-  "hello-world.json": require("/Users/jonnyn/JonGit/JonnynSite/.cache/json/hello-world.json"),
   "my-second-post.json": require("/Users/jonnyn/JonGit/JonnynSite/.cache/json/my-second-post.json"),
+  "hello-world.json": require("/Users/jonnyn/JonGit/JonnynSite/.cache/json/hello-world.json"),
   "index.json": require("/Users/jonnyn/JonGit/JonnynSite/.cache/json/index.json"),
   "projects.json": require("/Users/jonnyn/JonGit/JonnynSite/.cache/json/projects.json")
 }
