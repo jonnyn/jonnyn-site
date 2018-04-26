@@ -79,7 +79,7 @@ class HomeIndex extends React.Component {
                                         <div data-netlify-recaptcha></div>
                                     </div>
                                     <ul className="actions">
-                                        <li><input type="submit" value="Send Message" /></li>
+                                        <li><button type="submit">Send Message</button></li>
                                     </ul>
                                 </form>
                             </div>
