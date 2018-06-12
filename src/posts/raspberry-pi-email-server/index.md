@@ -4,7 +4,7 @@ date: "2018-05-09T14:46:37.121Z"
 path: "/raspberry-pi-email-server/"
 ---
 
-It's cool to run your own mail server. Instead of using somebody else's domain name (e.g. gmail, hotmail) and risking data mining, losing privacy, build your own low cost mail server to process your email.
+It's cool to run your own mail server. Instead of using somebody else's domain name (e.g. gmail, hotmail) and risking data mining, losing privacy, build your own low cost mail server to process your email. I used Raspberry Pi 3 for this installation and it worked perfectly fine performance-wise. The main reason I chose to install mail server on a Pi is because I don't want to mess up with the main server that has been up and running pretty well. It's recommended that you setup a mail server on FRESH, newly setup system if you don't want to mess up with other servers that you have already had on your system.
 
 ## Things used in this project
 

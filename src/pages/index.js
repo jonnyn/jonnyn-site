@@ -40,6 +40,9 @@ class HomeIndex extends React.Component {
                         {/* <ul className="actions">
                             <li><a href="#" className="button">Learn More</a></li>
                         </ul> */}
+                        <ul className="actions">
+                            <li><a href="/blogs" className="button">My Blogs</a></li>
+                        </ul>
                     </section>
 
                     <section id="two">
@@ -53,7 +56,6 @@ class HomeIndex extends React.Component {
 
                         <ul className="actions">
                             <li><a href="/projects" className="button">More Past Projects</a></li>
-                            <li><a href="/blogs" className="button">My Blogs</a></li>
                         </ul>
                     </section>
 
