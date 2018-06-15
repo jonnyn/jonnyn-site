@@ -4,6 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import Gallery from '../components/Gallery'
 import { IMAGES } from '../constants'
+import AppStoreLink from '../components/AppStoreLink';
 
 class Projects extends React.Component {
 
@@ -23,7 +24,12 @@ class Projects extends React.Component {
                         caption,
                         description
                     }))} />
-                    <h4>Also check out <a href="https://www.techlis.com/projects">Techlis' projects</a></h4>
+                    <p>Check out my App Stores</p>
+                        <AppStoreLink 
+                            appleLink="https://itunes.apple.com/us/developer/techlis-systems-inc/id987066377?mt=8"
+                            googleLink="https://play.google.com/store/apps/developer?id=Techlis"
+                            otherLink="https://play.google.com/store/apps/developer?id=BinuApp" />
+                    <p>Also check out <a href="https://www.techlis.com/projects">Techlis' projects</a></p>
                 </section>
                 <section><a href="..">Go Back</a></section>
             </div>

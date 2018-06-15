@@ -37,9 +37,6 @@ class HomeIndex extends React.Component {
                             Adobe Experience Management (AEM)<br/>
                             Visual Studio, XCode, Android Studio, Eclipse, VS Code, Git, SVN
                         </p>
-                        {/* <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul> */}
                         <ul className="actions">
                             <li><a href="/blogs" className="button">My Blogs</a></li>
                         </ul>
