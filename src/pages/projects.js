@@ -23,6 +23,7 @@ class Projects extends React.Component {
                         caption,
                         description
                     }))} />
+                    <h4>Also check out <a href="https://www.techlis.com/projects">Techlis' projects</a></h4>
                 </section>
                 <section><a href="..">Go Back</a></section>
             </div>
