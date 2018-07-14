@@ -112,8 +112,9 @@ You can also login using the new changed password in early step to see more deta
 
 The quick way to test if Pi-hole is working is accessing this site on your device
 [http://pi.hole/admin/](http://pi.hole/admin/)
-
 If you can access the Web interface on your device then it's working. Or testing with this link:
 [https://blockads.fivefilters.org/?pihole](https://blockads.fivefilters.org/?pihole)
+
+*Note: it's possible that Pi-hole will work on some devices but not others within network when you first install. It's because Pi-Hole will take some times to learn your network.
 
 That's it! Quick and easy. Enjoy ad blocking for your entire network!
