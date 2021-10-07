@@ -1,42 +1,76 @@
+require(`dotenv`).config()
+
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
+
 module.exports = {
   siteMetadata: {
-    title: "Jonny Nguyen",
-    author: "Jonny Nguyen",
-    description: "My Personal Page and Blog"
+    // You can overwrite values here that are used for the SEO component
+    // You can also add new values here to query them like usual
+    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
+    // Used for the title template on pages other than the index site
+    siteTitle: `Luan`,
+    // Default title of the page
+    siteTitleAlt: `Luan Nguyen Portfolio`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `Luan Nguyen Portfolio`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://www.jonnyn.com`,
+    // Used for SEO
+    siteDescription: `Jonny Luan Dinh Nguyen Portfolio`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@jonnyn`,
   },
-  pathPrefix: '/',
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `@lekoarts/gatsby-theme-cara`,
+      // See the theme's README for all available options
+      options: {},
+    },
+    googleAnalyticsTrackingId && {
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        path: `${__dirname}/src/posts`,
-        name: "posts",
+        trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/assets/images`,
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
+        name: `Cara - @lekoarts/gatsby-theme-cara`,
+        short_name: `Luan`,
+        description: `Luan Nguyen Personal Portfolio`,
+        start_url: `/`,
+        background_color: `#141821`,
+        theme_color: `#f6ad55`,
+        display: `standalone`,
+        icons: [
           {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 630,
-            },
+            src: `/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
           },
-          "gatsby-remark-copy-linked-files",
+          {
+            src: `/android-chrome-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`
-  ],
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-gatsby-cloud`,
+    `gatsby-plugin-netlify`,
+    shouldAnalyseBundle && {
+      resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
+      options: {
+        analyzerMode: `static`,
+        reportFilename: `_bundle.html`,
+        openAnalyzer: false,
+      },
+    },
+  ].filter(Boolean),
 }
