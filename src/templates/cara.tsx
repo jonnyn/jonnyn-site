@@ -13,11 +13,11 @@ const Cara = () => {
 
   return width < breakpoint ? (
     <Layout>
-      <Parallax pages={6}>
-        <Hero offset={0} factor={1.5} />
-        <Projects offset={1.5} factor={2.5} />
-        <About offset={4} factor={1} />
-        <Contact offset={5} factor={1} />
+      <Parallax pages={7}>
+        <Hero offset={0} factor={1} />
+        <Projects offset={2} factor={2} />
+        <About offset={5} factor={1} />
+        <Contact offset={6} factor={1} />
       </Parallax>
     </Layout>
   ) : (
