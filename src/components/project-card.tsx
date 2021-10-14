@@ -42,8 +42,28 @@ const ProjectCard = ({ link, title, children, bg, gallery: { thumb, images } }: 
         },
       }}
     >
-      <div>
-        {thumb && (<img sx={{marginLeft: 'auto', marginRight: 'auto', display: 'block', paddingBottom: '30px'}} src={thumb.large} srcSet={`${thumb.small} 600w, ${thumb.large} 2560w`} onClick={() => setIsOpen(true)} />)}
+      <div
+        sx={{
+          display: 'flex',
+          aspectRatio: '4/3'
+        }}
+      >
+        {thumb && (
+          <img 
+            sx={{
+              marginLeft: 'auto',
+              marginRight: 'auto',
+              display: 'block',
+              paddingBottom: '30px',
+              width: 'auto',
+              maxWidth: '100%',
+              objectFit: 'cover'
+            }}
+            src={thumb.small}
+            srcSet={`${thumb.small} 600w, ${thumb.large} 2560w`}
+            onClick={() => setIsOpen(true)}
+          />
+        )}
         
         {isOpen && (
           <Lightbox
